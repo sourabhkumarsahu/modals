@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Modals</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button id="openNormalModalBtn">Open Normal Modal</button>
+<button id="openLargeModalBtn">Open Large Modal</button>
+<button id="openExtraLargeModalBtn">Open Extra Large Modal</button>
+
+<div id="normalModal" class="modal">
+    <div class="modal-content normal" role="dialog" aria-modal="true" aria-labelledby="normalModalTitle">
+        <span class="close-btn" id="closeNormalModalBtn">&times;</span>
+        <h2 id="normalModalTitle">Normal Modal</h2>
+        <div class="modal-body">
+            <p>Normal modal content.</p>
+        </div>
+        <div class="modal-footer">
+            <button class="cancel-btn">Cancel</button>
+            <button class="ok-btn">OK</button>
+        </div>
+    </div>
+</div>
+
+<div id="largeModal" class="modal">
+    <div class="modal-content large" role="dialog" aria-modal="true" aria-labelledby="largeModalTitle">
+        <span class="close-btn" id="closeLargeModalBtn">&times;</span>
+        <h2 id="largeModalTitle">Large Modal</h2>
+        <div class="modal-body">
+            <p>Large modal content.</p>
+        </div>
+        <div class="modal-footer">
+            <button class="cancel-btn">Cancel</button>
+            <button class="ok-btn">OK</button>
+        </div>
+    </div>
+</div>
+
+<div id="extraLargeModal" class="modal">
+    <div class="modal-content extra-large" role="dialog" aria-modal="true" aria-labelledby="extraLargeModalTitle">
+        <span class="close-btn" id="closeExtraLargeModalBtn">&times;</span>
+        <h2 id="extraLargeModalTitle">Extra Large Modal</h2>
+        <div class="modal-body">
+            <p>Extra large modal content.</p>
+        </div>
+        <div class="modal-footer">
+            <button class="cancel-btn">Cancel</button>
+            <button class="ok-btn">OK</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
